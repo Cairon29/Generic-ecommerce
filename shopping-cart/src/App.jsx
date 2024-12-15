@@ -1,10 +1,17 @@
 import './App.css'
+import { Aside } from './components/aside/aside'
+import { Footer } from './components/footer/footer'
+import { Header } from './components/header/header'
+import { Main } from './components/main/main'
 
 function App() {
 
   return (
     <>
-      <h1>Shopping Cart</h1>
+      <Header/>
+      <Aside/>
+      <Main/>
+      <Footer/>
     </>
   )
 }

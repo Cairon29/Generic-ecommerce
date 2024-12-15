@@ -6,7 +6,7 @@
 
   display: grid;
   grid-template-columns: minmax(200px, 1fr), repeat(2, 1fr);
-  grid-template-rows: minmax(200px, 1fr), auto, minmax(400px, 600px);
+  grid-template-rows: minmax(90px, 150px), auto, minmax(400px, 600px);
   gap: 1em;
   grid-template-areas: 
     "header header header"
