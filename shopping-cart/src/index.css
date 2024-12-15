@@ -30,10 +30,6 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
 
 button {
   border-radius: 8px;
@@ -52,6 +48,12 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+input {
+  padding: 1rem;
+  border-radius: 10px;
+  border-style: none;
 }
 
 @media (prefers-color-scheme: light) {

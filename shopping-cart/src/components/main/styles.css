@@ -1,9 +1,8 @@
-
 .product-card {
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 16px;
-    max-width: 300px;
+    width: 300px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 16px;
@@ -28,7 +27,7 @@
 .product-details p {
     margin: 4px 0;
     font-size: 0.9em;
-    color: #555;
+    color: #cbcaca;
 }
 
 .product-actions {
