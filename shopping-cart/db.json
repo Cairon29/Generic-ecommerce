@@ -1,0 +1,166 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Electronics",
+        "description": "Devices and gadgets for everyday use."
+      },
+      {
+        "id": 2,
+        "name": "Books",
+        "description": "Fiction, non-fiction, and educational materials."
+      },
+      {
+        "id": 3,
+        "name": "Clothing",
+        "description": "Apparel for all genders and ages."
+      }
+    ],
+    "products": [
+      {
+        "id": 101,
+        "name": "Smartphone",
+        "categoryId": 1,
+        "price": 699.99,
+        "stock": 50,
+        "description": "Latest model smartphone with advanced features.",
+        "image": "https://http2.mlstatic.com/D_Q_NP_651731-MLU75081570841_032024-O.webp"
+      },
+      {
+        "id": 102,
+        "name": "Bluetooth Headphones",
+        "categoryId": 1,
+        "price": 199.99,
+        "stock": 100,
+        "description": "Wireless headphones with noise cancellation.",
+        "image": "https://jblstore.com.ph/cdn/shop/files/JBLTune670NC_Black_1_600x.png?v=1733963082"
+      },
+      {
+        "id": 103,
+        "name": "Smartwatch",
+        "categoryId": 1,
+        "price": 149.99,
+        "stock": 75,
+        "description": "Feature-packed smartwatch for fitness and notifications.",
+        "image": "https://blueplanetelectronics.com/wp-content/uploads/2024/05/smart-watch-bluetooth-con-pantalla-full-touch.jpg"
+      },
+      {
+        "id": 104,
+        "name": "Laptop",
+        "categoryId": 1,
+        "price": 1299.99,
+        "stock": 30,
+        "description": "High-performance laptop for work and entertainment.",
+        "image": "https://m.media-amazon.com/images/I/81fZmxBbQgL.jpg"
+      },
+      {
+        "id": 201,
+        "name": "Science Fiction Novel",
+        "categoryId": 2,
+        "price": 14.99,
+        "stock": 20,
+        "description": "A thrilling journey through space and time.",
+        "image": "https://media.npr.org/assets/img/2021/08/13/81wfmy9oafl_custom-0faf8f17413857547ce59182be61cde0bc373105.jpeg?s=1100&c=50&f=jpeg"
+      },
+      {
+        "id": 202,
+        "name": "Cookbook",
+        "categoryId": 2,
+        "price": 19.99,
+        "stock": 25,
+        "description": "Recipes for delicious meals from around the world.",
+        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2023/01/cookbook3.jpg"
+      },
+      {
+        "id": 203,
+        "name": "Graphic Novel",
+        "categoryId": 2,
+        "price": 12.99,
+        "stock": 40,
+        "description": "A beautifully illustrated story.",
+        "image": "https://www.bigw.com.au/medias/sys_master/images/images/hf3/h5b/50027388076062.jpg"
+      },
+      {
+        "id": 301,
+        "name": "T-Shirt",
+        "categoryId": 3,
+        "price": 9.99,
+        "stock": 200,
+        "description": "Comfortable cotton t-shirt available in various sizes.",
+        "image": "https://nobero.com/cdn/shop/files/og.jpg?v=1722234051"
+      },
+      {
+        "id": 302,
+        "name": "Jeans",
+        "categoryId": 3,
+        "price": 29.99,
+        "stock": 150,
+        "description": "Durable denim jeans for casual wear.",
+        "image": "https://hmcolombia.vtexassets.com/arquivos/ids/3615784/Straight-Regular-Jeans---Azul-denim---H-M-CO.jpg?v=638478134931130000"
+      },
+      {
+        "id": 303,
+        "name": "Winter Jacket",
+        "categoryId": 3,
+        "price": 89.99,
+        "stock": 50,
+        "description": "Warm and stylish jacket for winter seasons.",
+        "image": "https://cdni.llbean.net/is/image/wim/520163_699_41?hei=1095&wid=950&resMode=sharp2&defaultImage=llbprod/520163_699_41"
+      },
+      {
+        "id": 105,
+        "name": "Tablet",
+        "categoryId": 1,
+        "price": 499.99,
+        "stock": 60,
+        "description": "Lightweight tablet for browsing and media consumption.",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_726613-MLU77751138403_072024-O.webp"
+      },
+      {
+        "id": 106,
+        "name": "Wireless Mouse",
+        "categoryId": 1,
+        "price": 29.99,
+        "stock": 120,
+        "description": "Ergonomic mouse with a long battery life.",
+        "image": "https://images.monoprice.com/productlargeimages/440281.jpg"
+      },
+      {
+        "id": 204,
+        "name": "Historical Biography",
+        "categoryId": 2,
+        "price": 18.99,
+        "stock": 35,
+        "description": "A detailed account of a historical figure's life.",
+        "image": "https://images.penguinrandomhouse.com/cover/9780812979480"
+      },
+      {
+        "id": 205,
+        "name": "Children's Storybook",
+        "categoryId": 2,
+        "price": 8.99,
+        "stock": 60,
+        "description": "A fun and educational book for young readers.",
+        "image": "https://cdn.shopify.com/s/files/1/0310/7487/7577/products/00706MyFirstClassicBedtimeStories_RoundedCorners_c404fec3-ede6-4573-aee1-2a7e9f830a47.webp?v=1673447723"
+      },
+      {
+        "id": 304,
+        "name": "Sneakers",
+        "categoryId": 3,
+        "price": 49.99,
+        "stock": 100,
+        "description": "Comfortable sneakers for everyday use.",
+        "image": "https://cdn.thewirecutter.com/wp-content/media/2024/05/white-sneaker-2048px-9320.jpg?auto=webp&quality=75&crop=1.91:1&width=1200"
+      },
+      {
+        "id": 305,
+        "name": "Sunglasses",
+        "categoryId": 3,
+        "price": 14.99,
+        "stock": 75,
+        "description": "Stylish sunglasses with UV protection.",
+        "image": "https://sunski.com/cdn/shop/files/sunski_polarized_sunglasses_baia_24_1400x1100.jpg?v=1721341129"
+      }
+    ]
+  }
+  
