@@ -5,7 +5,7 @@
   text-align: center;
 
   display: grid;
-  grid-template-columns: minmax(50px, 100px), repeat(2, 1fr);
+  grid-template-columns: 50px, repeat(2, 1fr);
   grid-template-rows: repeat(2, auto), minmax(400px, 600px);
   gap: 1em;
   grid-template-areas: 
@@ -61,6 +61,10 @@ main div {
 
 
 aside {
+/* TO FIX! */
+  width: 150px;
+
+
   display: flex;
   flex-direction: column;
   padding: 1em;
