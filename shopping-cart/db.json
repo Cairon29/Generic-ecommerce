@@ -126,6 +126,96 @@
         "image": "https://images.monoprice.com/productlargeimages/440281.jpg"
       },
       {
+        "id": 107,
+        "name": "Gaming Console",
+        "categoryId": 1,
+        "price": 399.99,
+        "stock": 70,
+        "description": "Latest generation console for immersive gaming experiences.",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_933453-MCO48241444067_112021-O.webp"
+      },
+      {
+        "id": 108,
+        "name": "4K TV",
+        "categoryId": 1,
+        "price": 799.99,
+        "stock": 40,
+        "description": "Ultra HD smart TV with crystal-clear resolution.",
+        "image": "https://cloudflare.shopincdn.ovh/database_images_urls/25/85/2b/25852b0d8afc3ee2fcb87ddcc822d15b6b0788e2_500_500.jpg"
+      },
+      {
+        "id": 109,
+        "name": "Wireless Keyboard",
+        "categoryId": 1,
+        "price": 49.99,
+        "stock": 100,
+        "description": "Ergonomic keyboard with backlit keys.",
+        "image": "https://cdn-shop.adafruit.com/970x728/1737-02.jpg"
+      },
+      {
+        "id": 110,
+        "name": "Portable Speaker",
+        "categoryId": 1,
+        "price": 89.99,
+        "stock": 120,
+        "description": "Compact speaker with powerful sound and Bluetooth connectivity.",
+        "image": "https://smartjoys.co/wp-content/uploads/2023/01/ParlanteXiaomi16w-2.jpg"
+      },
+      {
+        "id": 111,
+        "name": "Digital Camera",
+        "categoryId": 1,
+        "price": 599.99,
+        "stock": 30,
+        "description": "High-resolution camera for photography enthusiasts.",
+        "image": "https://pyxis.nymag.com/v1/imgs/4d9/f5d/17a5c85b0bdfdafc38a33cd36332cb6184-3----.rhorizontal.w600.jpg"
+      },
+      {
+        "id": 112,
+        "name": "Drone",
+        "categoryId": 1,
+        "price": 499.99,
+        "stock": 20,
+        "description": "Compact drone with 4K camera for aerial shots.",
+        "image": "https://dji-retail.co.uk/cdn/shop/files/DJI-Inspire-3-Professional-Drone-4.webp?v=1711628177&width=2000"
+      },
+      {
+        "id": 113,
+        "name": "External Hard Drive",
+        "categoryId": 1,
+        "price": 79.99,
+        "stock": 200,
+        "description": "1TB portable hard drive for data backup.",
+        "image": "https://http2.mlstatic.com/D_Q_NP_646272-MLA40283983443_122019-O.webp"
+      },
+      {
+        "id": 114,
+        "name": "Smart Home Hub",
+        "categoryId": 1,
+        "price": 149.99,
+        "stock": 50,
+        "description": "Control all your smart home devices from one hub.",
+        "image": "https://blog.athom.com/wp-content/uploads/2019/08/Homey-Pro-1-2000x1125.png"
+      },
+      {
+        "id": 115,
+        "name": "Noise-Canceling Earbuds",
+        "categoryId": 1,
+        "price": 129.99,
+        "stock": 80,
+        "description": "True wireless earbuds with noise-canceling technology.",
+        "image": "https://www.bigw.com.au/medias/sys_master/images/images/h5b/hb3/49715259899934.jpg"
+      },
+      {
+        "id": 116,
+        "name": "Action Camera",
+        "categoryId": 1,
+        "price": 249.99,
+        "stock": 40,
+        "description": "Waterproof action camera for outdoor adventures.",
+        "image": "https://co.tiendasishop.com/cdn/shop/files/chdhx-112-rw_4.webp?v=1721064595&width=1000"
+      },
+      {
         "id": 204,
         "name": "Historical Biography",
         "categoryId": 2,
@@ -144,6 +234,96 @@
         "image": "https://cdn.shopify.com/s/files/1/0310/7487/7577/products/00706MyFirstClassicBedtimeStories_RoundedCorners_c404fec3-ede6-4573-aee1-2a7e9f830a47.webp?v=1673447723"
       },
       {
+        "id": 206,
+        "name": "Mystery Novel",
+        "categoryId": 2,
+        "price": 13.99,
+        "stock": 35,
+        "description": "A thrilling story full of twists and suspense.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Mystery_January_1934.jpg"
+      },
+      {
+        "id": 207,
+        "name": "Self-Help Guide",
+        "categoryId": 2,
+        "price": 15.99,
+        "stock": 50,
+        "description": "Improve your life with actionable advice.",
+        "image": "https://www.bigw.com.au/medias/sys_master/images/images/he4/h4a/48083947388958.jpg"
+      },
+      {
+        "id": 208,
+        "name": "Fantasy Adventure",
+        "categoryId": 2,
+        "price": 17.99,
+        "stock": 45,
+        "description": "Epic tale set in a magical world.",
+        "image": "https://www.tolkiensociety.org/app/uploads/2022/06/Fall-of-Numenor-HB-front-4617x6804-1.png"
+      },
+      {
+        "id": 209,
+        "name": "Programming Handbook",
+        "categoryId": 2,
+        "price": 24.99,
+        "stock": 25,
+        "description": "Comprehensive guide for learning programming.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDg05t59hDDWj1rPNm9nwjXVUN0te1K4JZ0A&s"
+      },
+      {
+        "id": 210,
+        "name": "Health & Wellness Book",
+        "categoryId": 2,
+        "price": 16.99,
+        "stock": 40,
+        "description": "Tips and techniques for a healthy lifestyle.",
+        "image": "https://media.wiley.com/product_data/coverImage300/86/15095564/1509556486.jpg"
+      },
+      {
+        "id": 211,
+        "name": "Art History Book",
+        "categoryId": 2,
+        "price": 22.99,
+        "stock": 30,
+        "description": "Explore the history of art through the ages.",
+        "image": "https://g.christianbook.com/dg/slideshow/f400/803081_1_ftc.jpg"
+      },
+      {
+        "id": 212,
+        "name": "Travel Guide",
+        "categoryId": 2,
+        "price": 19.99,
+        "stock": 40,
+        "description": "Discover the best destinations worldwide.",
+        "image": "https://shop.lonelyplanet.com/cdn/shop/files/Japan_18.jpg?v=1708377319"
+      },
+      {
+        "id": 213,
+        "name": "Romance Novel",
+        "categoryId": 2,
+        "price": 11.99,
+        "stock": 60,
+        "description": "A heartwarming tale of love and relationships.",
+        "image": "https://ew.com/thmb/V-4kWBoAQXPa1yvaxSPZaTkXzmM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/wilde-in-love-2000-adec4bb8fb014e8f9efbac0006e0a7f2.jpg"
+      },
+      {
+        "id": 214,
+        "name": "Cookbook: Desserts",
+        "categoryId": 2,
+        "price": 21.99,
+        "stock": 25,
+        "description": "Recipes for mouthwatering desserts.",
+        "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781507222577/the-i-dont-want-to-cook-book-dinners-done-in-one-pot-9781507222577_hr.jpg"
+      },
+      {
+        "id": 215,
+        "name": "Biography of a Scientist",
+        "categoryId": 2,
+        "price": 18.99,
+        "stock": 30,
+        "description": "Life story of a groundbreaking scientist.",
+        "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781605989402/stephen-hawking-9781605989402_hr.jpg"
+      },  
+      {
         "id": 304,
         "name": "Sneakers",
         "categoryId": 3,
@@ -160,6 +340,96 @@
         "stock": 75,
         "description": "Stylish sunglasses with UV protection.",
         "image": "https://sunski.com/cdn/shop/files/sunski_polarized_sunglasses_baia_24_1400x1100.jpg?v=1721341129"
+      },
+      {
+        "id": 306,
+        "name": "Sweatshirt",
+        "categoryId": 3,
+        "price": 29.99,
+        "stock": 150,
+        "description": "Comfortable sweatshirt for casual wear.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjdOMmbmefeFfLH4sQQNO_z_JDaIsFVoegAg&s"
+      },
+      {
+        "id": 307,
+        "name": "Hat",
+        "categoryId": 3,
+        "price": 14.99,
+        "stock": 80,
+        "description": "Stylish hat for all seasons.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfnjPRnLTkN8Y8yH1K5_wsOSJKekuP7KeUbg&s"
+      },
+      {
+        "id": 308,
+        "name": "Formal Shirt",
+        "categoryId": 3,
+        "price": 39.99,
+        "stock": 60,
+        "description": "Elegant shirt for formal occasions.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdry6_gIAQ9O2uT4QI0mQ0ZELG-DVMI8Arug&s"
+      },
+      {
+        "id": 309,
+        "name": "Shorts",
+        "categoryId": 3,
+        "price": 19.99,
+        "stock": 90,
+        "description": "Lightweight shorts for summer.",
+        "image": "https://cdn.baguer.co/uploads/2024/03/short-para-mujer-corto-en-indigo-con-proceso-sofia-derek-azul-831688AZ.jpg_ac2bahtt3FBdVweCBs0qLkviO4jzdIbN4W6AmUMvYUFmukORQ6.jpg"
+      },
+      {
+        "id": 310,
+        "name": "Raincoat",
+        "categoryId": 3,
+        "price": 59.99,
+        "stock": 50,
+        "description": "Waterproof raincoat for wet weather.",
+        "image": "https://scandinavianedition.com/cdn/shop/files/Scandinavian-Edition-Flair-Dark-Olive-6.jpg?v=1712749966"
+      },
+      {
+        "id": 311,
+        "name": "Sports Jacket",
+        "categoryId": 3,
+        "price": 69.99,
+        "stock": 40,
+        "description": "Lightweight jacket for outdoor activities.",
+        "image": "https://m.media-amazon.com/images/I/71ukpY3hL5L._AC_UL1500_.jpg"
+      },
+      {
+        "id": 312,
+        "name": "Scarf",
+        "categoryId": 3,
+        "price": 12.99,
+        "stock": 100,
+        "description": "Warm scarf for chilly weather.",
+        "image": "https://sino-silk.com/wp-content/uploads/2024/05/best-scarf-material.jpg"
+      },
+      {
+        "id": 313,
+        "name": "Polo Shirt",
+        "categoryId": 3,
+        "price": 24.99,
+        "stock": 100,
+        "description": "Classic polo shirt for casual outings.",
+        "image": "https://www.headcolombia.com.co/wp-content/uploads/2023/12/PERFORMANCE-POLO-SHIRT-MEN_0000s_0007_Capa-2.jpg"
+      },
+      {
+        "id": 314,
+        "name": "Socks (Pack of 5)",
+        "categoryId": 3,
+        "price": 9.99,
+        "stock": 200,
+        "description": "Comfortable socks in a variety of colors.",
+        "image": "https://www.beyondeast.com/cdn/shop/files/32_3c2b6650-3b74-49ca-bb43-99ab90135d46.jpg?v=1685600753"
+      },
+      {
+        "id": 315,
+        "name": "Gloves",
+        "categoryId": 3,
+        "price": 14.99,
+        "stock": 75,
+        "description": "Warm gloves for winter.",
+        "image": "https://www.give-r.com/cdn/shop/files/4SG-Lifestyle-Fall-03_7d9e7c1b-a9a0-4e3b-93ee-c03e74f91b56.jpg?v=1710773397"
       }
     ]
   }

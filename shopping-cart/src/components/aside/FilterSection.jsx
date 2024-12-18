@@ -24,12 +24,12 @@ export const FilterSection = ({ hdlCategory, hdlRange }) => {
                     name="minRange"
                     type="range"
                     min="0"
-                    max="1000"
+                    max="800"
                     value={filter.minPrice}
                     onChange={hdlRange}
                 />
                 </div>
-                <p>${filter.minPrice}</p>
+                <p id='rangeValue' >${filter.minPrice}</p>
             </div>
         </aside>
     );

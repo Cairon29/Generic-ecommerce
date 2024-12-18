@@ -63,10 +63,9 @@ main div {
 aside {
 /* TO FIX! */
   width: 150px;
-
-
   display: flex;
   flex-direction: column;
+  gap: 2em;
   padding: 1em;
   font-size: 20px;
   font-weight: bold;       
