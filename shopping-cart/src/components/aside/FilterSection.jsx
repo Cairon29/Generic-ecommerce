@@ -12,9 +12,9 @@ export const FilterSection = ({ hdlCategory, hdlRange }) => {
                 onChange={hdlCategory}
             >
                 <option value="all">All</option>
-                <option value="electronics">Electronics</option>
-                <option value="books">Books</option>
-                <option value="clothing">Clothing</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Books">Books</option>
+                <option value="Clothing">Clothing</option>
             </select>
             <div>
                 <label htmlFor="minRange">Minimum price:</label>

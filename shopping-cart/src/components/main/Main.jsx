@@ -1,26 +1,35 @@
 import { useState, useEffect, useContext } from 'react'
 
-import { getProducts } from '../../services/dbServices'
+import { getCategories, getProducts } from '../../services/dbServices'
 import { FilterContext } from '../../contexts/filters'
 import { Product } from './Product'
 import './styles.css'
 
 export const Main = () => {
     const [products, setProducts] = useState([])
+    const [categories, setCategories] = useState([])
     const { filter } = useContext( FilterContext )
+
+    useEffect(() => {
+        getCategories()
+        .then(data => setCategories(data))
+        .catch(error => console.error("error bringing the categories:", error))
+    }, [])
 
     useEffect(() => {
         getProducts()
         .then(data => {
-            console.log(data);
-            console.log(filter.minPrice);
+            const filteredPrice = data.filter(rawProduct => rawProduct.price >= filter.minPrice)
+            console.log(filteredPrice);
             
-            const filteredProducts = data.filter(rawProducts => rawProducts.price >= filter.minPrice)
-            console.log(filteredProducts);
-            // console.log(filter);
-            
-            
-            setProducts(filteredProducts)
+            // const filteredCategory = filteredPrice.filter((rawProduct) => {
+                
+            //     switch (rawProduct.categoryId) {
+            //         case 1:
+            //             setProducts(filteredCategory)
+            //     }
+            //     rawProduct.category === filter.category
+            // })
         })
         .catch(err => console.error("Error fetching lost items:", err));
     }, [filter])
@@ -28,8 +37,8 @@ export const Main = () => {
     return (
         <main>
             {products.map((product) => (
-            <Product key={product.id} product={product} />
+                <Product key={product.id} product={product} />
             ))}
         </main>
-    )
+    )   
 }
