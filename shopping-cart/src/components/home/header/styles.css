@@ -1,0 +1,14 @@
+#topBar {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#topBar h1{
+    font-size: 28px;
+}
+
+#topBar input {
+    width: 600px;
+}
+

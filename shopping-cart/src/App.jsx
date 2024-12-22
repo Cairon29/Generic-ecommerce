@@ -1,19 +1,11 @@
 import './App.css'
-import { Aside } from './components/aside/aside'
-import { Footer } from './components/footer/footer'
-import { Header } from './components/header/header'
-import { Main } from './components/main/main'
+import { Home } from './components/home/Home'
 
-function App() {
+export const App = () => {
 
   return (
     <>
-      <Header/>
-      <Aside/>
-      <Main/>
-      <Footer/>
+      <Home/>
     </>
   )
 }
-
-export default App
