@@ -1,4 +1,3 @@
-import { useAddToCart } from "../../../hooks/useAddToCart"
 import { CartContext } from "../../../contexts/cart"
 import { useContext } from "react"
 

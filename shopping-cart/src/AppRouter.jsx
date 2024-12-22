@@ -1,12 +1,13 @@
-import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
-import { App } from './App.jsx';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Cart } from './components/cart/Cart.jsx';
+import { Home } from './components/home/Home.jsx';
 
 export const AppRouter = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<App />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
                 <Route path='/cart' element={<Cart />} />
             </Routes>
         </BrowserRouter>
