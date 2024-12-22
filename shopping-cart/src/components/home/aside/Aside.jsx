@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { FilterContext } from "../../contexts/filters";
+import { FilterContext } from "../../../contexts/filters";
 import { FilterSection } from "./FilterSection";
 import './styles.css';
 

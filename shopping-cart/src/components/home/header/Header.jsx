@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { FilterContext } from "../../contexts/filters";
+import { FilterContext } from "../../../contexts/filters";
 import { HeaderSection } from "./HeaderSection";
 
 export const Header = () => {

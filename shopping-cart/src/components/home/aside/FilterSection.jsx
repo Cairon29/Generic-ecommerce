@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { FilterContext } from '../../contexts/filters';
+import { FilterContext } from '../../../contexts/filters';
 
 export const FilterSection = ({ hdlCategory, hdlRange }) => {
     
