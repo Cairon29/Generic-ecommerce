@@ -52,3 +52,30 @@
     padding: 5px;
     width: 50px;
 }
+
+.no-products {
+    display: flex;
+    text-align: center;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.no-products div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.no-products a {
+    padding: 1em 2em;
+}
+
+.no-products-image {
+    width: 300px;
+    height: 300px;
+}
+
+.no-products-image img {
+    width: 100%;
+    object-fit: cover;
+}

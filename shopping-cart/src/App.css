@@ -7,11 +7,13 @@
   display: grid;
   grid-template-columns: 50px, repeat(2, 1fr);
   grid-template-rows: repeat(2, auto), minmax(400px, 600px);
-  gap: 1em;
+  gap: 3em;
   grid-template-areas: 
     "header header header"
     "aside main main"
     "footer footer footer";
+   
+  justify-content: stretch;
 }
 
 
@@ -62,8 +64,11 @@ main div {
 aside {
 /* TO FIX! */
   width: 150px;
+  height: 100%;
+  margin: auto;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   gap: 2em;
   padding: 1em;
   font-size: 20px;
@@ -98,5 +103,21 @@ footer {
       "aside aside aside"
       "main main main"
       "footer footer footer";
+
+      padding: 0%;
+      margin: 0px;
+  }
+  header {
+    padding: 1em;
+  }
+
+  aside {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  aside select {
+    width: 80%;
   }
 }
