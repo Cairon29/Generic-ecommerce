@@ -1,6 +1,7 @@
 import { useContext } from "react"
 import { CartContext } from "../../../contexts/cart"
 import { Product } from "./products"
+import { NoProducts } from "./NoProducts"
 export const Main = () => {
     const { cart, setCart } = useContext(CartContext)
     
@@ -33,15 +34,17 @@ export const Main = () => {
     return (
         <main>
             {
-                cart.map(product => (
-                    <Product 
-                        key={product.id} 
-                        cartProduct={product}
-                        hdlRemoveFromCart={handleRemoveProduct}
-                        hdlPlusOne={handlePlusOne}
-                        hdlMinusOne={handleMinusOne}
-                    />
-                ))
+                cart.length > 0 
+                ? cart.map(product => (
+                        <Product 
+                            key={product.id} 
+                            cartProduct={product}
+                            hdlRemoveFromCart={handleRemoveProduct}
+                            hdlPlusOne={handlePlusOne}
+                            hdlMinusOne={handleMinusOne}
+                        />
+                    )) 
+                : <NoProducts/>
             }
         </main>    
     )
