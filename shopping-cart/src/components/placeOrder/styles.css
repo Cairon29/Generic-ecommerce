@@ -1,0 +1,39 @@
+
+.main-form {
+    width: 105vh;
+}
+
+.form-section {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+}
+
+.form-section div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-section input {
+    width: 300px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .form-section input {
+        width: 200px;
+    }
+}

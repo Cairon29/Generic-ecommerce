@@ -2,6 +2,8 @@ import { useContext } from "react"
 import { CartContext } from "../../../contexts/cart"
 import { Product } from "./products"
 import { NoProducts } from "./NoProducts"
+import { Link } from "react-router-dom"
+
 export const Main = () => {
     const { cart, setCart } = useContext(CartContext)
     
@@ -46,6 +48,9 @@ export const Main = () => {
                     )) 
                 : <NoProducts/>
             }
+            <button> 
+                <Link to="/confirm-order">Finish purcharse</Link>
+            </button>
         </main>    
     )
 }
