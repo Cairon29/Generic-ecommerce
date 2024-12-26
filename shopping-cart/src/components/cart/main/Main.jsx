@@ -2,6 +2,8 @@ import { useContext } from "react"
 import { CartContext } from "../../../contexts/cart"
 import { Product } from "./products"
 import { NoProducts } from "./NoProducts"
+import { Link } from "react-router-dom"
+
 export const Main = () => {
     const { cart, setCart } = useContext(CartContext)
     
@@ -35,15 +37,23 @@ export const Main = () => {
         <main>
             {
                 cart.length > 0 
-                ? cart.map(product => (
-                        <Product 
-                            key={product.id} 
-                            cartProduct={product}
-                            hdlRemoveFromCart={handleRemoveProduct}
-                            hdlPlusOne={handlePlusOne}
-                            hdlMinusOne={handleMinusOne}
-                        />
-                    )) 
+                ? ( 
+                    <>
+                        {cart.map(product => (
+                            <Product 
+                                key={product.id} 
+                                cartProduct={product}
+                                hdlRemoveFromCart={handleRemoveProduct}
+                                hdlPlusOne={handlePlusOne}
+                                hdlMinusOne={handleMinusOne}
+                            />
+
+                        ))}
+                        <button>
+                            <Link to="/confirm-order">Finish purchase</Link>
+                        </button>
+                    </>  
+                )
                 : <NoProducts/>
             }
         </main>    

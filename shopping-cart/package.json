@@ -12,6 +12,7 @@
     "start": "concurrently -k \"npm run dev\" \"npm run server\""
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "axios": "1.7.9",
     "json-server": "^1.0.0-beta.3",
     "react": "^18.3.1",

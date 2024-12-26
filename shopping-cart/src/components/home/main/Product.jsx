@@ -3,12 +3,15 @@ import { useContext } from "react"
 
 export const Product = ({ product }) => {
 
-  const { setCart } = useContext(CartContext)
+  const { cart, setCart } = useContext(CartContext)
 
-  const hdlAddToCart = () => (setCart( 
-    (prev) => [...prev, {...product, amount: 1}] 
-  ))
-
+  const hdlAddToCart = (id) => {
+    if (cart.find((item) => item.id === id)) {
+      return 
+    } else { 
+      setCart((prev) => [...prev, { ...product, amount: 1}])
+    }
+  }
   return (
     <article className="product-card" key={product.id}>
         <div className="product-image">
@@ -20,7 +23,7 @@ export const Product = ({ product }) => {
             <p><b>Price:</b> ${product.price}</p>
         </div>
         <div className="product-actions">
-            <button className="add-to-cart" onClick={hdlAddToCart}>Add to cart</button>
+            <button className="add-to-cart" onClick={() => hdlAddToCart(product.id)}>Add to cart</button>
         </div>
     </article>
   )
