@@ -37,20 +37,25 @@ export const Main = () => {
         <main>
             {
                 cart.length > 0 
-                ? cart.map(product => (
-                        <Product 
-                            key={product.id} 
-                            cartProduct={product}
-                            hdlRemoveFromCart={handleRemoveProduct}
-                            hdlPlusOne={handlePlusOne}
-                            hdlMinusOne={handleMinusOne}
-                        />
-                    )) 
+                ? ( 
+                    <>
+                        {cart.map(product => (
+                            <Product 
+                                key={product.id} 
+                                cartProduct={product}
+                                hdlRemoveFromCart={handleRemoveProduct}
+                                hdlPlusOne={handlePlusOne}
+                                hdlMinusOne={handleMinusOne}
+                            />
+
+                        ))}
+                        <button>
+                            <Link to="/confirm-order">Finish purchase</Link>
+                        </button>
+                    </>  
+                )
                 : <NoProducts/>
             }
-            <button> 
-                <Link to="/confirm-order">Finish purcharse</Link>
-            </button>
         </main>    
     )
 }

@@ -1,5 +1,5 @@
-import { Header } from '../home/header/header'
-import { Footer } from '../home/footer/Footer'
+import { Header } from '../header/Header'
+import { Footer } from '../footer/Footer'
 import { Form } from './form'
 import './styles.css'
 
