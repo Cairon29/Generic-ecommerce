@@ -1,4 +1,4 @@
-# React.js Shopping Cart Project
+# React.js Generic e-commerce Project
 
 ## Objective
 
