@@ -1,6 +1,7 @@
 import { Main } from "./main/Main"
 import { Header } from "../header/Header"
 import { Footer } from "../footer/Footer"
+import { Aside } from "./aside/Aside"
 
 export const Cart = () => {
   
@@ -8,6 +9,7 @@ export const Cart = () => {
     <>
       <Header/>
       <Main/>
+      <Aside/>
       <Footer/>
     </>
   )
