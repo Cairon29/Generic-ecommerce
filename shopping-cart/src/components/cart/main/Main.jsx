@@ -15,7 +15,7 @@ export const Main = () => {
     const handlePlusOne = (id) => {
         const newCart = cart.map((product) => {
             if (product.id === id) { 
-                return { ...product, amount: product.amount + 1 }
+                return { ...product, amount: product.amount + 1, total: product.price * (product.amount + 1) }
             } else { 
                 return product
             }
@@ -26,7 +26,7 @@ export const Main = () => {
     const handleMinusOne = (id) => {
         const newCart = cart.map((product) => {
             if (product.id === id && product.amount > 1) { 
-                return { ...product, amount: product.amount - 1 }
+                return { ...product, amount: product.amount - 1, total: product.price * (product.amount - 1) }
             } else { 
                 return product
             }
@@ -39,16 +39,19 @@ export const Main = () => {
                 cart.length > 0 
                 ? ( 
                     <>
-                        {cart.map(product => (
+                        {cart.map(product => {
+                            console.log(product);
+                            
+                            return (
                             <Product 
                                 key={product.id} 
                                 cartProduct={product}
                                 hdlRemoveFromCart={handleRemoveProduct}
                                 hdlPlusOne={handlePlusOne}
                                 hdlMinusOne={handleMinusOne}
-                            />
-
-                        ))}
+                            />)
+                            
+                        })}
                         <button>
                             <Link to="/confirm-order">Finish purchase</Link>
                         </button>

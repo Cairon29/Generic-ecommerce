@@ -9,7 +9,12 @@ export const Product = ({ product }) => {
     if (cart.find((item) => item.id === id)) {
       return 
     } else { 
-      setCart((prev) => [...prev, { ...product, amount: 1}])
+      // const amount = 1; // Define amount explicitly
+      // setCart((prev) => [
+      //   ...prev,
+      //   { ...product, amount, total: product.price * amount },
+      // ]);
+      setCart((prev) => [...prev, { ...product, amount: 1, total : product.price }]);
     }
   }
   return (
