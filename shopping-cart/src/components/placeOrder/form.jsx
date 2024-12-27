@@ -6,7 +6,7 @@ import { CartContext } from "../../contexts/cart";
 import { FormSection } from "./FormSection";
 
 export const Form = () => {
-    const { cart, setCart } = useContext(CartContext);
+    const { cart, setCart, totalPrice } = useContext(CartContext);
 
     const [form, setForm] = useState({
         fullName: '',
@@ -15,9 +15,8 @@ export const Form = () => {
         address: '',
 
     });
-
+    
     const htmlCart = HtmlCart().toString();
-    const totalPrice = cart.reduce((acc, item) => acc + item.total, 0);
 
     const formFunctions = {
         hdlSubmit : (e) => {
