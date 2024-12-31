@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Cart } from './components/cart/Cart.jsx';
 import { Home } from './components/home/Home.jsx';
 import { PlaceOrder } from './components/placeOrder/PlaceOrder.jsx';
+import { Login } from './components/login/Login.jsx';
 
 export const AppRouter = () => {
     return (
@@ -11,6 +12,8 @@ export const AppRouter = () => {
                 <Route path="/home" element={<Home />} />
                 <Route path='/cart' element={<Cart />} />
                 <Route path='/confirm-order' element={<PlaceOrder />} />
+                <Route path='/LogIn' element={<Login />} />
+                <Route path='*' element={ <div>404 - Not Found</div>} />
             </Routes>
         </BrowserRouter>
     )

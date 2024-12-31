@@ -8,16 +8,18 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "json-server db.json --port 3001",
-    "start": "concurrently -k \"npm run dev\" \"npm run server\""
+    "server-products": "json-server productsDb.json --port 3001",
+    "server-users": "json-server usersDb.json --port 3002",
+    "start": "concurrently -k \"npm run server-products\" \"npm run server-users\" \"npm run dev\""
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-    "axios": "1.7.9",
+    "axios": "^1.7.9",
     "json-server": "^1.0.0-beta.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.1.0"
+    "react-router-dom": "^7.1.0",
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",

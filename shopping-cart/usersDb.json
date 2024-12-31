@@ -1,0 +1,68 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "role": "admin",
+        "password": "admin123",
+        "address": "123 Admin Street, Admin City, 12345",
+        "phone": "+1-555-1010"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "role": "admin",
+        "password": "admin456",
+        "address": "456 Manager Avenue, Admin City, 67890",
+        "phone": "+1-555-2020"
+      },
+      {
+        "id": 3,
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "role": "user",
+        "password": "user123",
+        "address": "789 User Lane, User Town, 11223",
+        "phone": "+1-555-3030"
+      },
+      {
+        "id": 4,
+        "name": "Bob Brown",
+        "email": "bob.brown@example.com",
+        "role": "user",
+        "password": "user456",
+        "address": "101 User Street, User Town, 44556",
+        "phone": "+1-555-4040"
+      },
+      {
+        "id": 5,
+        "name": "Charlie Davis",
+        "email": "charlie.davis@example.com",
+        "role": "user",
+        "password": "user789",
+        "address": "202 User Road, User Town, 77889",
+        "phone": "+1-555-5050"
+      },
+      {
+        "id": 6,
+        "name": "Diana Evans",
+        "email": "diana.evans@example.com",
+        "role": "user",
+        "password": "user101",
+        "address": "303 User Drive, User City, 99001",
+        "phone": "+1-555-6060"
+      },
+      {
+        "id": 7,
+        "name": "Ethan Green",
+        "email": "ethan.green@example.com",
+        "role": "user",
+        "password": "user202",
+        "address": "404 User Court, User City, 22334",
+        "phone": "+1-555-7070"
+      }
+    ]
+  }
+  

@@ -5,8 +5,6 @@
   text-align: center;
 
   display: grid;
-  grid-template-columns: 50px, repeat(2, 1fr);
-  grid-template-rows: repeat(2, auto), minmax(400px, 600px);
   gap: 3em;
   grid-template-areas: 
     "header header header"

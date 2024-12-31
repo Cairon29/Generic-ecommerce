@@ -18,7 +18,7 @@ export const Product = ({ cartProduct, hdlRemoveFromCart, hdlPlusOne, hdlMinusOn
                 <button onClick={() => hdlPlusOne(cartProduct.id)}>+</button>
             </div>
             <div className="cart-product-total">
-                <span>${cartProduct.price * cartProduct.amount}</span>
+                <span>${((cartProduct.total).toFixed(2))}</span>
                 <button onClick={() => hdlRemoveFromCart(cartProduct.id)}> ✖ </button>
             </div>
         </article>
