@@ -14,11 +14,11 @@ export const Aside = () => {
                         <section>
                             <div>
                                 <p>Products ({totalAmount})</p>
-                                <p>${totalPrice}</p>
+                                <p>${totalPrice.toFixed(2)}</p>
                             </div>
                             <div>
                                 <p><strong>SubTotal</strong></p>
-                                <p><strong>${totalPrice}</strong></p>
+                                <p><strong>${totalPrice.toFixed(2)}</strong></p>
                             </div>
                             <button>
                                 <Link to="/confirm-order">Finish purchase</Link>
