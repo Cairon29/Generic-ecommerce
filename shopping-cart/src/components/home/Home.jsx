@@ -4,7 +4,6 @@ import { Header } from '../header/Header'
 import { Main } from './main/HomeMain'
 
 export const Home = () => {
-
   return (
     <>
       <Header/>
