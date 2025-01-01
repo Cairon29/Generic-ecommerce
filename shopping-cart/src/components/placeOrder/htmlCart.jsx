@@ -18,8 +18,7 @@ export const HtmlCart = () => {
             </tr>
         `
     )
-    .join(""); // Concatenate all product rows into a single string
-    console.log(htmlString);
+    .join("");
     
     return htmlString; 
 }
