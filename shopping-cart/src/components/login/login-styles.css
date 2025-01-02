@@ -1,0 +1,36 @@
+
+.logIn-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1em;
+    align-items: center;
+}
+
+.logIn-form input {
+    width: 70%;
+}
+
+#aside-login {
+    margin: 0%;
+    margin: auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+#aside-login div {
+    word-wrap: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#aside-login p {
+    text-align: start;
+    font-size: 18px;
+}

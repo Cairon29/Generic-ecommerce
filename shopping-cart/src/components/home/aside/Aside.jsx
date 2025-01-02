@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { FilterContext } from "../../../contexts/filters";
 import { FilterSection } from "./FilterSection";
-import './styles.css';
+import './home-aside-styles.css';
 
 export const Aside = () => {
   const { filter, setFilter } = useContext(FilterContext);

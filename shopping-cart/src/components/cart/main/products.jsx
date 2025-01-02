@@ -1,5 +1,3 @@
-import './styles.css'
-
 export const Product = ({ cartProduct, hdlRemoveFromCart, hdlPlusOne, hdlMinusOne }) => {
   
     return (

@@ -1,6 +1,6 @@
 export const Form = ({ hdlFunctions, userData, loginError }) => {
     return (
-      <main>
+      <main id="login-main">
           <form onSubmit={hdlFunctions.hdlSubmit} className='logIn-form'>
                 <label htmlFor="name">Email: </label>
                 <input 
