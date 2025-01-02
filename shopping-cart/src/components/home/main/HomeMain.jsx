@@ -1,7 +1,6 @@
 import { useFilterProducts } from '../../../hooks/useFilterProducts'
 import { Product } from './Product'
 import { NoProducts } from './NoProducts'
-import './styles.css'
 
 export const Main = () => {
     const { products } = useFilterProducts();

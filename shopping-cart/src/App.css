@@ -1,17 +1,17 @@
 #root {
   width: 90%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 
   display: grid;
-  gap: 3em;
   grid-template-areas: 
-    "header header header"
-    "aside main main"
-    "footer footer footer";
-   
+  "header header header"
+  "aside main main"
+  "footer footer footer";
+  
   justify-content: stretch;
+  gap: 1em;
 }
 
 
@@ -23,13 +23,10 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1em;
   font-size: 20px;
   font-weight: bold;
-  height: 200px;           
-  border: 1px solid whitesmoke;
-  border-radius: 8px;    
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1); 
+  height: 120px;           
+  border-radius: 8px;     
   text-align: center;      
   font-family: Arial, sans-serif; 
 
@@ -41,14 +38,13 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   padding: 1em;
-  border: 1px solid whitesmoke;
   font-size: 20px;
   font-weight: bold;
   height: auto;           
-  border-radius: 8px;    
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px;     
   text-align: center;      
   font-family: Arial, sans-serif; 
+  gap: 16px;
   
   grid-area: main;
 }
@@ -71,9 +67,7 @@ aside {
   padding: 1em;
   font-size: 20px;
   font-weight: bold;       
-  border: 1px solid whitesmoke;
-  border-radius: 8px;    
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px;     
   text-align: center;      
   font-family: Arial, sans-serif; 
 
@@ -84,11 +78,10 @@ footer {
   font-size: 20px;
   font-weight: bold;
   height: 150px;           
-  border: 1px solid whitesmoke;
-  border-radius: 8px;    
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px;     
   text-align: center;      
   font-family: Arial, sans-serif; 
+  background-color: rgb(26, 26, 26);
 
   grid-area: footer;
 }
@@ -105,16 +98,13 @@ footer {
       padding: 0%;
       margin: 0px;
   }
-  header {
-    padding: 1em;
-  }
 
   aside {
     width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+  } 
   aside select {
     width: 80%;
   }

@@ -1,11 +1,11 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import { FilterContext } from '../../../contexts/filters';
 
 export const FilterSection = ({ hdlCategory, hdlRange }) => {
     
     const { filter } = useContext( FilterContext );
     return (
-        <aside>
+        <aside id='home-aside'>
             <select
                 name="Categories"
                 value={filter.category}

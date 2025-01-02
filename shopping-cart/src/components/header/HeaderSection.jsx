@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { SessionContext } from "../../contexts/session";
 import { useSessionActions } from "../../hooks/useSessionActions";
 import { Link, useNavigate } from "react-router-dom";
-import "./styles.css";
 
 export const HeaderSection = ({ hdlInput }) => {
     const { userSession } = useContext(SessionContext);
