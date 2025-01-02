@@ -29,12 +29,6 @@ select {
     margin: 0px;
 }
 
-/* === range theme and appearance === */
-input[type="range"] {
-	font-size: 1.5rem;
-	width: 12.5em;
-}
-
 input[type="range"] {
 	color: #ef233c;
 	--thumb-height: 1.125em;
@@ -43,6 +37,11 @@ input[type="range"] {
 	--brightness-hover: 180%;
 	--brightness-down: 80%;
 	--clip-edges: 0.125em;
+	position: relative;
+	background: #fff0;
+	overflow: hidden;
+	font-size: 1.5rem;
+	width: 12.5em;
 }
 
 input[type="range"].win10-thumb {
@@ -70,13 +69,6 @@ input[type="range"].win10-thumb {
 	input[type="range"].win10-thumb {
         color: #f07167;
 	}
-}
-
-/* === range commons === */
-input[type="range"] {
-	position: relative;
-	background: #fff0;
-	overflow: hidden;
 }
 
 input[type="range"]:active {
