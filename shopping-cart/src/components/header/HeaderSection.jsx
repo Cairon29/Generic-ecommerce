@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { SessionContext } from "../../contexts/session";
 import { useSessionActions } from "../../hooks/useSessionActions";
 import { Link, useNavigate } from "react-router-dom";
+import AsideMenu from "../asideMenu/AsideMenu";
 
 export const HeaderSection = ({ hdlInput }) => {
     const { userSession } = useContext(SessionContext);
@@ -33,6 +34,9 @@ export const HeaderSection = ({ hdlInput }) => {
                 <button onClick={hdlSessionBtn}>
                     {userSession ? "Log Out" : "Log In"}
                 </button>
+            </div>
+            <div className="testing">
+                <AsideMenu/>
             </div>
         </header>
     );
