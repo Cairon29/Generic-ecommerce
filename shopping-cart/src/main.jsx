@@ -5,14 +5,17 @@ import { SessionProvider } from './contexts/session.jsx'
 import { AppRouter } from './AppRouter.jsx'
 import { App } from './App.jsx'
 import './index.css'
+import { UserPageProvider } from './contexts/userPage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <SessionProvider>
     <FilterProvider>
       <CartProvider>
+        <UserPageProvider>
           <AppRouter>
             <App />
           </AppRouter>
+        </UserPageProvider>
       </CartProvider>
     </FilterProvider>
   </SessionProvider>

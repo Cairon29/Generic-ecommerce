@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { SessionContext } from "../../contexts/session";
 import { useSessionActions } from "../../hooks/useSessionActions";
 import { Link, useNavigate } from "react-router-dom";
-import AsideMenu from "../asideMenu/AsideMenu";
 
 export const HeaderSection = ({ hdlInput }) => {
     const { userSession } = useContext(SessionContext);
@@ -26,17 +25,19 @@ export const HeaderSection = ({ hdlInput }) => {
                 <div>
                     <input type="text" placeholder="Search a product" onChange={hdlInput} />
                 </div>
-                <Link to="/cart">
-                    <button>
-                        <img src="../../../public/cart.png" alt="Your shopping cart" />
-                    </button>
-                </Link>
-                <button onClick={hdlSessionBtn}>
-                    {userSession ? "Log Out" : "Log In"}
-                </button>
-            </div>
-            <div className="testing">
-                <AsideMenu/>
+                <div className="user-utilities">
+                    <Link to="/cart">
+                        <button>
+                            <img src="../../../public/cart.png" alt="Your shopping cart" />
+                        </button>
+                    </Link>
+                    {/* <button onClick={hdlSessionBtn}>
+                        {userSession ? "Log Out" : "Log In"}
+                    </button> */}
+                    <Link to='/user' className="user-icon-link">
+                        <img src="../../../public/menu.png" className="user-icon"/>
+                    </Link>
+                </div>
             </div>
         </header>
     );
