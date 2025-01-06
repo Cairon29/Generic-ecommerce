@@ -1,0 +1,97 @@
+#user-aside {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.user-options {
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0; 
+    
+  }
+  
+
+  .user-options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em; 
+  }
+  
+  .userMenu-button-options {
+    width: 100%;
+    background-color: #007bff; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+  }
+  
+  .userMenu-button-options:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); 
+  }
+  .userMenu-button-options:active {
+    background-color: #004080;
+  }
+
+
+
+
+
+
+
+  .your-profile-section {
+    align-items: start;
+    width: 100%;
+  }
+
+  .user-stats {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .user-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+    border: 1px solid transparent;
+    border-bottom: 2px solid #ffffff;
+  }
+  
+  .user-info img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+
+
+  @media (max-width: 600px) {
+    #user-aside{
+        margin: auto;
+    }
+    .user-options {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .userMenu-button-options {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  

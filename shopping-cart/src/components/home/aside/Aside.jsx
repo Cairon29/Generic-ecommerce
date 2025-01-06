@@ -11,7 +11,6 @@ export const Aside = () => {
       ...prev,
       minPrice: e.target.value
     }));
-    console.log(filter.minPrice);
   };
 
   const handleCategoryChange = (e) => {

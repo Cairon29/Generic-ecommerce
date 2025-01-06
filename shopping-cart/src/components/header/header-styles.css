@@ -13,6 +13,27 @@
     width: 600px;
 }
 
+.user-utilities {
+    display: flex;
+    gap: 1em;
+}
+
+.user-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #535bf2;
+    border-radius: 15px;
+}
+
+.user-icon :hover {
+    background-color: #3439a0;   
+}
+
+.user-icon-link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 @media screen and ( max-width: 750px) {
     #topBar input {

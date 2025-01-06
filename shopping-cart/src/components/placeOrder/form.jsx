@@ -21,7 +21,6 @@ export const Form = () => {
     const formFunctions = {
         hdlSubmit : (e) => {
             e.preventDefault();
-            console.log(htmlCart);
             
             if (form.fullName && form.email && form.phone && form.address && cart.length > 0) {
                 const templateParams = {
