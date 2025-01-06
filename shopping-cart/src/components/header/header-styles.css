@@ -25,7 +25,7 @@
     border-radius: 15px;
 }
 
-.user-icon ::hover {
+.user-icon :hover {
     background-color: #3439a0;   
 }
 

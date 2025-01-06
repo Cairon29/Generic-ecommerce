@@ -1,19 +1,12 @@
 import { useContext } from "react";
 import { SessionContext } from "../../contexts/session";
-import { useSessionActions } from "../../hooks/useSessionActions";
 import { Link, useNavigate } from "react-router-dom";
 
 export const HeaderSection = ({ hdlInput }) => {
     const { userSession } = useContext(SessionContext);
-    const { LogOut } = useSessionActions();
-    const navigate = useNavigate();
 
     const hdlSessionBtn = () => {
-        if (userSession) {
-            LogOut();
-        } else {
-            navigate("/LogIn");
-        }
+        navigate("/LogIn");
     };
 
     return (
@@ -31,12 +24,18 @@ export const HeaderSection = ({ hdlInput }) => {
                             <img src="../../../public/cart.png" alt="Your shopping cart" />
                         </button>
                     </Link>
-                    {/* <button onClick={hdlSessionBtn}>
-                        {userSession ? "Log Out" : "Log In"}
-                    </button> */}
-                    <Link to='/user' className="user-icon-link">
-                        <img src="../../../public/menu.png" className="user-icon"/>
-                    </Link>
+                    {
+                        userSession 
+                        ?
+                            <Link to='/user' className="user-icon-link">
+                                <img src="../../../public/menu.png" alt="menu icon" className="user-icon"/>
+                            </Link>
+                        :   
+                            <Link to="/LogIn">
+                                <button onClick={hdlSessionBtn}> Log In </button>
+                            </Link>
+                    }
+                    
                 </div>
             </div>
         </header>

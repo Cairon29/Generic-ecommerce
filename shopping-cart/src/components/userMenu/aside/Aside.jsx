@@ -8,7 +8,7 @@ export const Aside = () => {
 
   return (
     <aside id= "user-aside">
-        { userSession ? <AsideSection /> : <p> No user logged</p>}
+        { userSession ? <AsideSection /> : <p> No user logged in</p>}
     </aside>
   )
 }

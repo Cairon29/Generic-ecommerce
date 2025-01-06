@@ -8,7 +8,6 @@ import { Shipped } from "./subSections/Shipped";
 import { YourProfile } from "./subSections/YourProfile";
 import { YourReviews } from "./subSections/YourReviews";
 
-
 export const Main = () => {
   
   const { page } = useContext( UserPageContext );
