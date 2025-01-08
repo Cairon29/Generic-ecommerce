@@ -28,7 +28,7 @@ The primary goal of this project is to create an interactive and dynamic shoppin
 
 ### 4. **Checkout**
 - Displays a summary of the cart.
-- Allows users to proceed to a simulated checkout.
+- **Email.js**: Allows users to proceed to a simulated checkout with Email.js library. This will send an email with the cart details to the user's email address, deplowing the cart products selected by the user along its purcharse information.
 
 ### 5. **Responsive Design**
 - The UI adapts to various screen sizes, ensuring a smooth experience on mobile and desktop devices.
@@ -37,15 +37,23 @@ The primary goal of this project is to create an interactive and dynamic shoppin
 
 ### Frontend
 - **React.js**: For building a dynamic and interactive user interface.
-- **React Context API** or **Redux**: To manage the global state of the shopping cart.
+- **React Context API**: To manage the global state of the shopping cart.
 - **CSS Modules** or **Styled Components**: For styling the application.
 
 ### Backend (Optional)
-- **Mock API**: Created with tools like **JSON Server** or **mockAPI.io** to simulate product data.
+- **Mock API**: Created with tools like **JSON Server** to simulate product data.
+- **Email.js**: For sending emails with purcharse details.
 
 ### Additional Libraries
-- **React Router**: For navigation between pages like Home, Products, and Cart.
-- **Axios** or **Fetch API**: For fetching data from the backend.
+- **React Router dom**: For navigation between pages like Home, Products, and Cart.
+- **Axios**: For fetching data from the backend.
+- **React Hook Form**: For form validation in the checkout process.
+- **Email.js**: For sending emails with purchase details.
+- **Concurrently**: For running multiple scripts concurrently.
+- **uuid**: For generating unique IDs for cart items.
+- **json-server**: For creating a mock API.
+- **antd**: For styling some of the components.
 
-## Project Structure
+
+
 
