@@ -4,6 +4,16 @@
 
 The primary goal of this project is to create an interactive and dynamic shopping cart using **React.js**. The application will allow users to browse a catalog of products, add items to the cart, adjust quantities, and review their selected items before checkout. 
 
+User will be able to log in with the following pre-set credentials:
+**1:** 
+  email: john.doe@example.com
+  role: admin
+  password: admin123
+**2**
+  email: alice.johnson@example.com
+  role: user
+  password: user123
+
 ## Features
 
 ### 1. **Product Listing**
