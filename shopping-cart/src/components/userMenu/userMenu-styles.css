@@ -12,8 +12,7 @@
     border-radius: 8px;
     max-width: 400px;
     margin: 0; 
-    
-  }
+}
   
 
   .user-options ul {
@@ -26,7 +25,7 @@
   }
   
   .userMenu-button-options {
-    width: 100%;
+    width: 90%;
     background-color: #007bff; 
     color: #ffffff; 
     border: none;
@@ -46,7 +45,14 @@
     background-color: #004080;
   }
 
-
+  .pending-functionality {
+    background-color: #5a738e; 
+    transition: none;
+  }
+  .pending-functionality:hover {
+    background-color: #5a738e;
+    transform: scale(1.01); 
+  }
 
 
 
@@ -54,12 +60,13 @@
 
   .your-profile-section {
     align-items: start;
-    width: 100%;
+    width: 100vh;
   }
 
   .user-stats {
     display: flex;
     justify-content: space-between;
+    gap: 1em;
   }
 
   .user-info {
@@ -80,18 +87,108 @@
   }
 
 
-  @media (max-width: 600px) {
-    #user-aside{
-        margin: auto;
-    }
-    .user-options {
-      max-width: 100%;
-      padding: 10px;
-    }
+
+
+  /* Container for the entire component */
+.under-development-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+/* Title style */
+.under-development-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Message style */
+.under-development-message {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Loader container */
+.under-development-loader {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* Dots for the loader animation */
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #007bff;
+  border-radius: 50%;
+  animation: blink 1.5s infinite ease-in-out;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+/* Keyframes for blinking animation */
+@keyframes blink {
+  0%, 80%, 100% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  #user-aside{
+      margin: auto;
+  }
+  #user-aside input {
+    width: 80vh;
+  }
+
+  .user-options {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .userMenu-button-options {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
   
-    .userMenu-button-options {
-      font-size: 14px;
-      padding: 8px 16px;
-    }
+@media screen and (max-width: 450px) {
+
+  .your-profile-section {
+    width: 100%;
+  }
+
+  .user-info h2 {
+    font-size: 20px;
+  }
+  .user-info p {
+    font-size: 14px;
+  }
+
+  .user-info img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .user-stats p {
+    font-size: 12px;
   }
   
+  .user-stats h3 {
+    font-size: 18px;
+  }
+}
