@@ -35,6 +35,10 @@ The primary goal of this project is to create an interactive and dynamic shoppin
 
 ## Technology Stack
 
+### Deployement
+- **Vite**: Fast and lightweight development server for React applications.
+- **Vercel**: For hosting the application.
+
 ### Frontend
 - **React.js**: For building a dynamic and interactive user interface.
 - **React Context API**: To manage the global state of the shopping cart.
