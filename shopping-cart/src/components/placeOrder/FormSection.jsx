@@ -1,8 +1,4 @@
-import { useContext } from "react"
-import { SessionContext } from "../../contexts/session"
-
 export const FormSection = ({formFunctions, formData, totalPrice}) => {
-    
 
     return (
         <section className="form-section">
