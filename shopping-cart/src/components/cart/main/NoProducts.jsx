@@ -4,7 +4,7 @@ export const NoProducts = () => {
     return (
         <section className="no-products">
             <div className="no-products-image">
-                <img src="../../../../public/empty-cart.webp" alt="" />
+                <img src="./public/empty-cart.webp" alt="empty cart" />
             </div>
             <div>
                 <p><b> There are no items in your cart at.</b></p>
