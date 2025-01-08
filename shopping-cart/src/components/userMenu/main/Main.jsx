@@ -11,7 +11,7 @@ import { YourReviews } from "./subSections/YourReviews";
 export const Main = () => {
   
   const { page } = useContext( UserPageContext );
-  const [currentPage, setCurrentPage] = useState(<AllOrders />);
+  const [currentPage, setCurrentPage] = useState(<YourProfile />);
 
   useEffect(() => {
     switch (page) {
@@ -40,7 +40,7 @@ export const Main = () => {
   }, [page])
 
   return (
-    <main>
+    <main className="main-user-menu">
       { currentPage }
     </main>
   )

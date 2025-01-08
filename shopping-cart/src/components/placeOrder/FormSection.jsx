@@ -1,4 +1,5 @@
 export const FormSection = ({formFunctions, formData, totalPrice}) => {
+
     return (
         <section className="form-section">
             <h2> Buyer Information </h2>

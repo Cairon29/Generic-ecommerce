@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 export const HeaderSection = ({ hdlInput }) => {
     const { userSession } = useContext(SessionContext);
+    const navigate = useNavigate();
 
     const hdlSessionBtn = () => {
         navigate("/LogIn");

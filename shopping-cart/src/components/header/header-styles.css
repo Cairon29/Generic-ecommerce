@@ -1,6 +1,6 @@
 #topBar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 1em;
 }
@@ -19,20 +19,25 @@
 }
 
 .user-icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: #535bf2;
     border-radius: 15px;
+    padding: 2px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
 }
 
-.user-icon :hover {
-    background-color: #3439a0;   
+.user-icon:hover {
+    background-color: #3439a0;
+    transform: scale(1.1);
 }
 
 .user-icon-link {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and ( max-width: 750px) {
@@ -41,5 +46,9 @@
     }
     #topBar {
         margin: 0px;
+    }
+    .user-icon {
+        width: 40px; /* Adjust size for smaller screens */
+        height: 40px;
     }
 }

@@ -1,7 +1,7 @@
-import React from 'react'
+import { UnderDevelopment } from '../UnderDevelopment'
 
 export const Processing = () => {
   return (
-    <div>Processing</div>
+    <UnderDevelopment/>
   )
 }

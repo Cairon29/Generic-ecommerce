@@ -25,10 +25,7 @@ export const Aside = () => {
                             </button>
                         </section>
                     </>
-                :   <section className='summary-empty-cart'>
-                        <h2> Purcharse Summary</h2>
-                        <p> You will see the summary here once you add products to the cart</p>
-                    </section>
+                :   <section className='summary-empty-cart'></section>
             }
             
         </aside>

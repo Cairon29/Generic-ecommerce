@@ -4,15 +4,19 @@ import { v4 as uuidv4 } from 'uuid';
 import { HtmlCart } from "./htmlCart";
 import { CartContext } from "../../contexts/cart";
 import { FormSection } from "./FormSection";
+import { SessionContext } from "../../contexts/session";
+
+
 
 export const Form = () => {
     const { cart, setCart, totalPrice } = useContext(CartContext);
+    const { userSession } = useContext(SessionContext)
 
     const [form, setForm] = useState({
-        fullName: '',
-        email: '',
-        phone: '',
-        address: '',
+        fullName: userSession ? userSession.name : '',
+        email: userSession ? userSession.email : '',
+        phone: userSession ? userSession.phone : '',
+        address: userSession ? userSession.address : '',
 
     });
     

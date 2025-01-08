@@ -6,7 +6,7 @@ export const Main = () => {
     const { products } = useFilterProducts();
 
     return (
-        <main>
+        <main id='home-main'>
             {
                 products.length === 0 
                 ? <NoProducts/> 
