@@ -22,14 +22,14 @@ export const HeaderSection = ({ hdlInput }) => {
                 <div className="user-utilities">
                     <Link to="/cart">
                         <button>
-                            <img src="../../../public/cart.png" alt="Your shopping cart" />
+                            <img src="./public/cart.png" alt="Cart" />
                         </button>
                     </Link>
                     {
                         userSession 
                         ?
                             <Link to='/user' className="user-icon-link">
-                                <img src="../../../public/menu.png" alt="menu icon" className="user-icon"/>
+                                <img src="./public/menu.png" alt="menu icon" className="user-icon"/>
                             </Link>
                         :   
                             <Link to="/LogIn">
