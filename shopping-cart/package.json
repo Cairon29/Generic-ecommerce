@@ -13,21 +13,21 @@
     "start": "concurrently -k \"npm run server-products\" \"npm run server-users\" \"npm run dev\""
   },
   "dependencies": {
-    "@emailjs/browser": "^4.4.1",
-    "antd": "^5.22.7",
-    "axios": "^1.7.9",
-    "json-server": "^1.0.0-beta.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^7.1.0",
-    "uuid": "^11.0.3"
+    "@emailjs/browser": "4.4.1",
+    "antd": "5.22.7",
+    "axios": "1.7.9",
+    "concurrently": "9.1.2",
+    "json-server": "1.0.0-beta.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "7.1.0",
+    "uuid": "11.0.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react-swc": "^3.5.0",
-    "concurrently": "^9.1.0",
     "eslint": "^9.15.0",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
