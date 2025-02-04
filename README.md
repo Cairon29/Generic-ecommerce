@@ -1,6 +1,6 @@
 # React.js Generic e-commerce Project
 
-Web page link: **https://rick-and-morty-wiki-orcin.vercel.app**
+## Web page link: **https://rick-and-morty-wiki-orcin.vercel.app**
 
 ## Objective
 
