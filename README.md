@@ -1,7 +1,5 @@
 # React.js Generic e-commerce Project
 
-## Web page link: **https://rick-and-morty-wiki-orcin.vercel.app**
-
 ## Objective
 
 The primary goal of this project is to create an interactive and dynamic shopping cart using **React.js**. The application will allow users to browse a catalog of products, add items to the cart, adjust quantities, and review their selected items before checkout. 
