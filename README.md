@@ -1,4 +1,4 @@
-# React.js Generic e-commerce Project
+# React.js local e-commerce Project
 
 ## Objective
 
